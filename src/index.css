@@ -1,13 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  display: flex;
+  color: #0a5397;
+  justify-content: space-between;
 }
+.logo {
+  display: flex;
+}
+.logo img {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.navContainer {
+  margin-right: 50px;
+
+}
+.navmenu {
+  text-transform: uppercase;
+  margin-top: 12px;
+  display: flex;
+}
+li {
+  list-style-type: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+    padding: 20px 10px;
+    list-style-type: none;
+} 
+
+nav li a{
+  color: #0a5397;
+  text-decoration: none;  
+}
+
+/*Slider*/
+
+.SliderContainer {
+  margin-top: 20px;
+  background-color: #d2e8fc;
+  padding-top: 55px;
+}
+
+.SliderContainer .container {
+   display: flex;
+  justify-content: center;
+}
+
+.TxtArea {
+
+  width: 35%;
+  line-height: 30px;
+  padding: 70px 0 30px 21px;
+}
+
+.ImagesArea {
+  width: 40%;
+  text-align: center;
+ 
+}
+
+.BtnDown {
+  text-align: center;
+  padding-top: 30px;
+}
+.BtnDown button {
+  border: 0;
+  background-color: #d2e8fc;
+  font-size: 60px;
+  color: #383e57;
+}
+.BtnDown button:hover {
+  cursor: pointer;
+  background-color: #d2e8fc;
+  color: #5e6272;
+}
+
+/* Services Boxes*/
+
+.SevciesBoxes {
+  margin-top: 20px;
+}
+
+.Container {
+  padding: 0 60px 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.SevciesBoxes .Box {
+  float: left;
+  width: 25%;
+  text-align: center;
+  border: 3px solid #000;
+  padding: 20px 10px;
+  margin: 20px 40px;
+}
+
+.SevciesBoxes .HeadingTwo {
+  font-size: 50px;
+  text-align: center;
+}
+
+.Box h3 {
+  font-size: 30px;
+}
+
+.Box p {
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+/*Button Style*/
+
+button {
+  background: #383e57;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  width: 170px;
+  height: 50px;
+}
+
+ button:hover {
+  background: #5e6272;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*Seprator Line*/
+
+.BottomLine {
+  margin: 50px 0;
+}
+hr {
+  margin-top: 20px;
+  width: 20%;
+  border: 2px solid #000;
+}
+
+/*Partner Icons*/
+.partnersBox {
+  background-color: #d2e8fc;
+  margin-top: 50px;
+  padding: 10px 0px;
+}
+
+.partContainer {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.fbIcon{
+  color: #1c72e2;
+  padding: 0px 20px;
+}
+.twIcon{
+  color: #239af5;
+  padding: 0px 20px;
+}
+.linIcon{
+  color: #0784c2 ;
+  padding: 0px 20px;
+}
+.gitIcon{
+  color: #f74c2e;
+  padding: 0px 20px;
+}
+.ytIcon{
+  color: #f80c0c ;
+  padding: 0px 20px;
+}
+.isIcon{
+  color: #e94298;
+  padding: 0px 20px;
+}
+.ssIcon{
+  color: #EFC30A;
+  padding: 0px 20px;
+}
+
+/*Blog Posts*/
+.blogContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.postText {
+  padding: 10px;  
+  width: 40%;
+}
+
+.postImg {
+ width: 25%;
+ margin-bottom: 50px;
+}
+
+/*Contact Form*/
+.contctContainer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.contact-form {
+  border: 1px solid #000;
+  padding: 25px 30px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  padding: 5px 0;
+}
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.btn-form {
+  background:  #063080;
+  border: 1px solid #2670f8;
+  color: #fff;
+  font-size: 16px;
+  float: right;
+  margin-top: 20px;
+  width: 50%;
+  height: 45px;
+}
+
+ .btn-form:hover {
+  background: #2670f8;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+    /*Footer...*/
+  footer {
+      background: #1d1d1d;
+      color: #fff;
+      padding-top: 30px;
+      min-height: 65px;
+      margin-top: 20px;
+  }
+
+  .socialIcons {
+    float: right;
+  }
+  
+  footer .smIcon {
+      color: #fff;
+      padding: 0px 25px;
+  }
+  
+  footer p {
+      float: left;
+      display: inline;
+      margin: 0 25px 20px 15px;
+      font-size: 20px;
+  }
